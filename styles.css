@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffebee; /* Changed background color to a light red */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 2px solid #b71c1c; /* Changed border color to a dark red */
+}
+
+h1 {
+    color: #b71c1c; /* Changed text color to a dark red */
+}
+
+label {
+    font-size: 1.2em;
+    color: #d32f2f; /* Changed text color to a medium red */
+}
+
+select, #userInput, #send, #start {
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #d32f2f; /* Changed border color to a medium red */
+}
+
+#send, #start {
+    background-color: #b71c1c; /* Changed button background color to a dark red */
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#send:hover, #start:hover {
+    background-color: #d32f2f; /* Changed hover color to a medium red */
+}
+
+#chatbox {
+    margin-top: 20px;
+}
+
+#messages {
+    height: 200px;
+    overflow-y: auto;
+    border: 1px solid #d32f2f; /* Changed border color to a medium red */
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #ffebee; /* Changed background color to a light red */
+}
+
+#score {
+    margin-top: 10px;
+    font-size: 1.2em;
+    color: #b71c1c; /* Changed text color to a dark red */
+}
